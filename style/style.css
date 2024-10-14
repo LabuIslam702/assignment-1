@@ -1,6 +1,85 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* style of banner part */
 .banner{
-   
+   background-image: url("../assets/Hero-bg.png");
+
+}
+.banner-img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.banner-title{
+    text-align: center;
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+}
+.banner-description{
+    text-align: center;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+
+}
+
+/* shared button */
+.btn-primary{
+    margin: 0 500px;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+}
+
+/* style of main part */
+.section{
+    margin-top: 100px;
+}
+.section-title{
+    text-align: center;
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+}
+.section-description{
+    text-align: center;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    align-items: center;
+}
+.content-title{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.content-description{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.btn-content{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 5px;
 }
